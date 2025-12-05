@@ -1,0 +1,25 @@
+function validaFormulario() {
+
+  let nome = document.getElementById("nome").value;
+  let email = document.getElementById("email").value;
+  let telefone = document.getElementById("telefone").value;
+
+  if (nome !== "" && email !== "" && telefone !== "") {
+
+    alert("Prontinho, " + nome + "! Você receberá as novidades por email.");
+
+  } else {
+
+    alert(nome + " Por favor, preencha os campos nome, email e telefone.");
+
+  }
+}
+
+
+
+
+
+
+
+
+ 
